@@ -9,6 +9,11 @@ Date:
 :root {
     
     /*COLORS*/
+    --body-bg: lightgray;
+    --bg: white;
+    --text-color: white;
+    --label-color: black;
+    --accent-color: rgb(56, 167, 56);
   
     
     /*BORDER RADIUS*/
@@ -30,3 +35,80 @@ Date:
 }
 
 /******* GLOBAL STYLES *******/
+
+/*CSS FROM PROJECT FILES*/
+body {
+    background-color: var(--body-bg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+.radio-container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.radio-field {
+    background-color: var(--bg);
+    padding: 2rem 4rem 4rem;
+    border: 2px solid #333;
+    border-radius: var(--br-soft);
+    box-shadow: 1rem 1rem #777;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.radio-legend {
+    background-color: rgb(50, 50, 223);
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: var(--br-soft);
+}
+
+.radio-legend,
+.radio-field label {
+    font-size: var(--fs-l);
+}
+
+.radio-field label,
+.radio-field input {
+    cursor: pointer;
+}
+
+.radio-field label {
+    color: var(--label-color);
+    padding: 1.5rem;
+}
+
+input[type="radio"]{
+    width: 3rem;
+    height: 3rem;
+    accent-color: var(--accent-color);
+}
+
+.radio-field div {
+    border-bottom: 1px solid #333;
+    margin-bottom: .25rem;
+    display: flex;
+    align-items: center;
+}
+
+
+  
+
+

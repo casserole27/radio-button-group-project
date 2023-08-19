@@ -17,15 +17,21 @@
 </head>
 
  <body>
-    <main>
-        <fieldset>
-            <legend>Select an option</legend>
-            <input type="radio" id="option1" name="options" value="Option 1"></input>
-            <label for="option1">Option 1</label>
-            <input type="radio" id="option2" name="options" value="Option 2"></input>
-            <label for="option2">Option 2</label>
-            <input type="radio" id="option3" name="options" value="Option 3"></input>
-            <label for="option2">Option 3</label>
+    <main class="radio-container">
+        <fieldset class="radio-field">
+            <legend class="radio-legend">Select an option</legend>
+            <div>
+                <input type="radio" id="option1" name="options" value="Option 1"></input>
+                <label for="option1">Option 1</label>
+            </div>
+            <div>
+                <input type="radio" id="option2" name="options" value="Option 2"></input>
+                <label for="option2">Option 2</label>
+            </div>
+            <div>    
+                <input type="radio" id="option3" name="options" value="Option 3"></input>
+                <label for="option3">Option 3</label>
+            </div>    
         </fieldset>
     </main>
     <script src="index.js"></script>
