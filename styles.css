@@ -1,0 +1,32 @@
+/*
+Author: Cassie Lewis
+https://clewisdev.com
+Date: 
+*/
+
+/****** VARIABLES ******/
+
+:root {
+    
+    /*COLORS*/
+  
+    
+    /*BORDER RADIUS*/
+    --br-soft: 1rem;
+    --br-round: 50%;
+    
+    /*FONT SIZES*/
+    --fs-s: 1rem;
+    --fs-m: 1.5rem;
+    --fs-l: 2rem;
+}
+
+/****** MARGIN AND PADDING RESET ******/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/******* GLOBAL STYLES *******/

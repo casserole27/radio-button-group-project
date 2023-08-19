@@ -1,0 +1,146 @@
+
+ ## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+
+### Overview
+
+**Project Prompt: RadioButtonGroup Component**
+
+**Task:**
+Your task is to create a reusable `RadioButtonGroup` component using React. The component should allow users to select a single option from a list of radio button options.
+
+### The challenge
+
+**Project Prompt: RadioButtonGroup Component**
+
+**Task:**
+Your task is to create a reusable `RadioButtonGroup` component using React. The component should allow users to select a single option from a list of radio button options.
+
+**Getting started**
+
+Install dependencies via `npm`:
+```sh
+npm install
+```
+This requires having node.js installed on your computer. You will need to install node.js if you don't already have it.
+
+**Run the project**
+```sh
+npm start
+```
+
+**Running the unit tests**
+
+```sh
+npm run test
+```
+
+**Requirements:**
+
+This project requires completing the `RadioButtonGroup` component located in `src/components/RadioButtonGroup` follow the criteria below.
+
+1. **Component Design:**
+   The component should take three props:
+   - `options`: An array of objects representing the available options. Each object should have a `value` and `label` property.
+   - `selectedValue`: The value of the currently selected option.
+   - `onChange`: A function that the `RadioButtonGroup` component calls when the value changes.
+
+2. **Component Functionality:**
+   - Render radio buttons for each option provided in the `options` prop.
+   - Highlight the radio button corresponding to the `selectedValue` prop.
+   - Allow users to select a new option by clicking on a radio button.
+
+3. **Styling:**
+   It is not important to make this look pretty – this is a developer position, not a design position. Style the radio buttons to provide a clear visual distinction between selected and non-selected options. It can be anything from a different text color or different background.
+
+   Consider using CSS or a styling library like `styled-components` to do this.
+
+4. **Event Handling:**
+   The component will take an onChange function as a prop. This onChange event should be called with the associated option value when a radio button is clicked.
+
+5. **Testing:**
+   Tests should be written in `src/components/RadioButtonGroup/RadioButtonGroup.test.js` using [react-testing-library](https://testing-library.com/docs/react-testing-library/intro/), which is already set up for this project. Implement the three tests that are currently stubbed in this file.
+
+6. **Usage Example:**
+   The `App.js` file in this project renders the RadioButtonGroup component with predefined options. This can/should be used for showing your component in action, and it should not need any edits made to it.
+
+**Submission:**
+- Create a new Git repository for this project.
+- Implement the `RadioButtonGroup` component and all related code.
+- Share the repository with us when you're ready for review.
+
+**Evaluation Criteria:**
+- Component design and implementation.
+- Code organization and readability.
+- Functionality and correctness of the `RadioButtonGroup` component.
+- Proper usage of React principles and best practices.
+- Unit test coverage and test quality.
+- Styling implementation (again, we will not evaluate how pretty it looks, but just showcase _some_ CSS in your solution).
+
+ ### Screenshot
+
+<h2>Pages</h2>
+<hr>
+
+![screenshot](#)
+
+### Links
+
+- [Github Repository](#)
+
+## My process
+
+- Create Github repository
+- Set up basic HTML file 
+- Set up basic CSS file
+- Set up basic JavaScript file
+- Consult Figma design files
+- Project work: Github issues and version control
+- Publish live URL
+- Check markup and accessibility
+(https://validator.w3.org/)
+(https://wave.webaim.org/)
+- README file documentation
+
+### Built with
+
+- semantic HTML5
+- CSS custom properties
+- Responsive Web Design
+
+### What I learned
+
+
+### Continued development
+
+
+### Useful resources
+
+
+- [MDN Web Docs - input type radio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
+
+
+## Author
+
+- Website - [C Lewis](https://www.clewisdev.com)
+- LinkedIn - [LinkedIn](https://www.linkedin.com/in/clewisdev/)
+
+
+## Acknowledgments
+
+
+
+
+
